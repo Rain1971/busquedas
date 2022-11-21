@@ -27,6 +27,6 @@ while True:
          print( "OK -> " + str(numero) )
          if numero > 1000:
             numero = 0
-      time.sleep( 20 )
+      time.sleep( 2 )
    except urllib.error.URLError as e:
       print(e.reason)
